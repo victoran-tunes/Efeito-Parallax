@@ -1,0 +1,344 @@
+@media only screen and (max-width: 480px) {
+    body {
+        margin: 0;
+        padding: 0;
+        color: #242424;
+        font-family: sans-serif;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+        color: #000;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main {
+        display: block;
+        background-color: #fff;
+    }
+
+    .container {
+        width: 0%;
+        max-width: 380px;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+
+    section.module p {
+        margin-bottom: 40px;
+        font-weight: bolder;
+        color: blanchedalmond;
+    }
+
+    section.module:last-child {
+        margin-bottom: 0;
+    }
+
+    section.module h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+        color: white;
+    }
+
+    section.module.content {
+        padding: 40px 0;
+        background-color: black;
+        width: 100%;
+    }
+
+
+
+    section.module.parallax {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh !important;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    section.module.parallax:after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 50%, #000 100%);
+    }
+
+    section.module.parallax-1 {
+        background-image: url("/img/Montanha3.jpg");
+    }
+
+    section.module.parallax-2 {
+        background-image: url("/img/Montanha2.jpg");
+    }
+
+    section.module.parallax-3 {
+        background-image: url("/img/Montanha.jpg");
+    }
+
+
+    section.module.parallax h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 8px;
+        z-index: 50;
+        text-transform: uppercase;
+    }
+
+    .gradient {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+
+    }
+
+    .gradient2 {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to bottom, yellow, brown, red);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+
+    }
+
+    .gradient3 {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to right, #2980e3, #505b7d, #91a7ed);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+    }
+
+    footer {
+        margin-top: -16px;
+        text-align: center;
+        background-color: black;
+        height: 75px;
+    }
+
+    footer p {
+        text-align: center;
+        color: white;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        margin: 0;
+        padding: 0;
+        color: #242424;
+        font-family: sans-serif;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 800;
+        color: #000;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main {
+        display: block;
+        background-color: #fff;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    section.module p {
+        margin-bottom: 40px;
+        font-weight: bolder;
+    }
+
+    section.module:last-child {
+        margin-bottom: 0;
+    }
+
+    section.module h2 {
+        margin-bottom: 40px;
+        font-size: 30px;
+        color: white;
+    }
+
+    section.module.content {
+        padding: 40px 0;
+        background-color: black;
+    }
+
+
+
+    section.module.parallax {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh !important;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+
+    section.module.parallax:after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 8;
+        background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 50%, #000 100%);
+    }
+
+    section.module.parallax-1 {
+        background-image: url("/img/Montanha3.jpg");
+    }
+
+    section.module.parallax-2 {
+        background-image: url("/img/Montanha2.jpg");
+    }
+
+    section.module.parallax-3 {
+        background-image: url("/img/Montanha.jpg");
+    }
+
+    section.module.parallax h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 58px;
+        z-index: 50;
+        text-transform: uppercase;
+    }
+
+    .gradient {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+
+    }
+
+    .gradient2 {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to bottom, yellow, brown, red);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+
+    }
+
+    .gradient3 {
+        /* Primeiro passo: definir um degradê como fundo */
+        background-image: linear-gradient(to right, #2980e3, #505b7d, #91a7ed);
+
+        /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
+        background-clip: text;
+        -webkit-background-clip: text;
+        /* Alguns navegadores precisam do prefixo */
+
+        /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+        -webkit-text-fill-color: transparent;
+
+        /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+        color: black;
+    }
+
+    footer {
+        margin-top: -16px;
+        text-align: center;
+        background-color: black;
+        height: 75px;
+    }
+
+    footer p {
+        text-align: center;
+        color: white;
+    }
+}
